@@ -96,6 +96,15 @@ http://localhost:1000
 ```
 npm install express pg body-parser
 ```
+## 📁 Final Folder Structure
+```
+database
+│── node_modules
+│── package.json
+│── package-lock.json
+│── public
+│── sql.js
+```
 ## 2️⃣ PostgreSQL Connection (sql.js)
 ```
 const express = require("express");
