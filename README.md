@@ -8,7 +8,7 @@ A beginner-friendly Express.js starter project demonstrating how to set up a bas
 - Install → Next → Next → Finish
 - Check installation
 - Open VS Code → Terminal (Ctrl + `) and run:
-```
+```css
 node -v
 npm -v
 ```
@@ -22,7 +22,7 @@ npm -v
 
 ## 3️⃣ Initialize Node Project
 - In VS Code terminal:
-```
+```css
 npm init -y
 ```
 - This creates package.json 📦
@@ -30,7 +30,7 @@ npm init -y
 ## 4️⃣ Install Express.js
 
 Now run:
-```
+```css
 npm install express
 After this you’ll see:
 node_modules/ folder
@@ -40,7 +40,7 @@ express added in package.json
 ✅ Express installed!
 
 ## 📁 Final Folder Structure
-```
+```js
 Routing
 │── node_modules
 │── package.json
@@ -51,7 +51,7 @@ Routing
 ## 5️⃣ Create Your First Express Server
 
 Create a file: index.js 
-```
+```js
 // index.js
 const express = require('express');
 const path = require('path');
@@ -81,24 +81,24 @@ app.use((req, res, next) => {
 ```
 ## 6️⃣ Run the Server
 In vs code terminal:
-```
+```css
 node index.js
 ```
 
 Open browser:
-```
+```css
 http://localhost:1000
 ```
 🎉 Done! Express is live.
 
 ## 🔹 Express + PostgreSQL Setup
 ### 1️⃣ Install Packages
-```
+```css
 npm install express pg body-parser
 ```
 ## 📁 Final Folder Structure
-```
-database
+```js
+Database
 │── node_modules
 │── package.json
 │── package-lock.json
@@ -106,7 +106,7 @@ database
 │── sql.js
 ```
 ## 2️⃣ PostgreSQL Connection (sql.js)
-```
+```js
 const express = require("express");
 const { Pool } = require("pg"); // Import Pool from the pg library
 
@@ -152,11 +152,11 @@ app.listen(PORT, () => {
 ```
 ## Run the Server
 In vs code terminal:
-```
+```css
 node sql.js
 ```
 Open browser:
-```
+```css
 http://localhost:5432
 ```
 🎉 Done! Express is live.
