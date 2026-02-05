@@ -1,7 +1,6 @@
 # Express JS Starter 🚀
 A beginner-friendly Express.js starter project demonstrating how to set up a basic Node.js server.
 ---
-
 ## 1️⃣ Install Node.js (must-have)
 - Express runs on Node.js.
 - Go to 👉 https://nodejs.org
